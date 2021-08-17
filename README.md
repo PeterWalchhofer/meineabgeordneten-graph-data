@@ -17,14 +17,34 @@ The graph format can also be exported to RDF, CSV, XLSX, CYPHER (Neo4j) and GEXF
 
 With the FtM CLI, you can transform, modify and extend the data, e.g. in a juptyer notebook. For futher analyses, this is highly recommended.
 
-## Aleph FtM Graph visualization
-If you want to visualize it, use [Aleph](https://aleph.occrp.org), a free and open-source platform for (investigative) journalists. By using Aleph, the data can be modified, extended and shared.
+## Aleph 
+---
+### FtM Graph visualization
+If you want to visualize it, use [Aleph](https://aleph.occrp.org), a free and open-source platform for (investigative) journalists. By using Aleph, the data can be explored, modified, extended and shared.
 
 ![networkOfPower](img/politicians_ftm.JPG)
 
 Also, you find links to other datasets, leaks and documents that Aleph holds or that you uploaded. For example, one can automatically discover mentions of polticians (or tied organizations) from a leaked data dump.
 
+### Search
+Search for entities in the dataset.
+
+![networkOfPower](img/search.gif)
+
+### Explore
+Explore the heterogeneous data interactively.
+
+![networkOfPower](img/explore.gif)
+
+### Cross-reference with different datasets
+Aleph suggests possible matches with other datasets. In this preview, linked payments to a datasets of the EU Financial Transparency System is being found.
+
+![networkOfPower](img/crossref.gif)
+
+
+
 ## Neo4j
+---
 For using neo4j, you can use the neo4h_bulk export or the cypher commands.  
 
 ![networkOfPower](img/neo4j.JPG)
@@ -32,6 +52,7 @@ For using neo4j, you can use the neo4h_bulk export or the cypher commands.
 With Linkurious you can also explore the network interactively.
 
 ## Gephi
+---
 Also Gephi can be used to analyze the network.
 ![networkOfPower](img/gephi.png)
 
@@ -57,4 +78,4 @@ The data has been scraped by using Memorious, a scraping framework used by Aleph
 [Here](https://github.com/PeterWalchhofer/opensanctions) is the scraping script + the forked OpenSanctions repository (that builds upon memorious) to run it on your own.
 See `cron_job.sh` in THIS repo to see how one can use it.
 
-You can easily rewrite the script for using it without OpenSanctions.
+You can easily rewrite the script for using it without Memorious.
