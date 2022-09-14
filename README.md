@@ -2,6 +2,7 @@
 
 This is a dataset scraped from [meineabgeordneten.at](http://meineabgeordenten.at) about Austrian persons of interest and their ties to organizations, societies and parties. In addition, companies and their ownership structure are covered. The data contains historical data as well as up to date information as listed at meineabgeordneten.at. All props go to them and their great project. The data was collected for my bachelor thesis that covered investigative journalism and the use of linked data for data driven investigation.
 
+The data was updated at 14.09.2022. You can contact me if the data is out of date.
 Feel free to use the data in other projects and give credit to meineabgeordneten.at.
 
 # Technical Information
