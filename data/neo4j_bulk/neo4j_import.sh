@@ -4,6 +4,6 @@ neo4j-admin import --id-type=STRING --database=graph.db \
 	--nodes=_nodes.csv \
 	--relationships=Membership.csv \
 	--nodes=Person.csv \
-	--nodes=Company.csv \
 	--relationships=Ownership.csv \
+	--nodes=Company.csv \
 	--nodes=Organization.csv \
