@@ -1,8 +1,8 @@
-# Austrian politicians, head of departments and members of the "Corona commission"
+# Austrian politicians, head of departments and associated organizations
 
 This is a dataset scraped from [meineabgeordneten.at](http://meineabgeordenten.at) about Austrian persons of interest and their ties to organizations, societies and parties. In addition, companies and their ownership structure are covered. The data contains historical data as well as up to date information as listed at meineabgeordneten.at. All props go to them and their great project. The data was collected for my bachelor thesis that covered investigative journalism and the use of linked data for data driven investigation.
 
-The data was updated at 14.09.2022. You can contact me if the data is out of date.
+The data was updated at 25.04.2023. You can contact me if the data is out of date.
 Feel free to use the data in other projects and give credit to meineabgeordneten.at.
 
 # Technical Information
@@ -16,7 +16,7 @@ The graph format can also be exported to RDF, CSV, XLSX, CYPHER (Neo4j) and GEXF
 
 `pip install followthemoney`
 
-With the FtM CLI, you can transform, modify and extend the data, e.g. in a juptyer notebook. For futher analyses, this is highly recommended.
+With the FtM CLI, you can transform, modify and extend the data, e.g. in a jupyter notebook. For further analyses, this is highly recommended.
 
 ## Aleph 
 ---
